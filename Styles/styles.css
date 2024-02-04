@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #CBE6EF;
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a 2px horizontal, 2px vertical, 5px blur, and 0.3 opacity shadow */
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 20px;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    background-color: #80c3d8;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FAF9F6;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align to the bottom */
+    margin-left: 20px; /* Adjusted for consistency */
+}
